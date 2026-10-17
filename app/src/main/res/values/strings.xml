@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Android 界面组件实验</string>
+    <string name="experiment_label">EXPERIMENT 03 · ANDROID UI</string>
+    <string name="experiment_title">Android 界面组件实验</string>
+    <string name="experiment_subtitle">五个可运行的界面组件示例，点击卡片开始体验。</string>
+
+    <string name="experiment_1_title">Android ListView</string>
+    <string name="experiment_1_subtitle">SimpleAdapter · Toast · 系统通知</string>
+    <string name="experiment_2_title">自定义 AlertDialog</string>
+    <string name="experiment_2_subtitle">自定义布局 · setView() · 登录表单</string>
+    <string name="experiment_3_title">XML 菜单</string>
+    <string name="experiment_3_subtitle">字体大小 · 普通菜单项 · 字体颜色</string>
+    <string name="experiment_4_title">ActionMode 上下文菜单</string>
+    <string name="experiment_4_subtitle">长按列表项 · 选择状态 · 删除操作</string>
+    <string name="experiment_5_title">RecyclerView 列表视图</string>
+    <string name="experiment_5_subtitle">Adapter · ViewHolder · 点击新增记录</string>
+
+    <string name="footer_hint">提示：每个实验均可独立运行，返回目录后可继续体验下一项。</string>
+    <string name="back">返回</string>
+    <string name="list_view_title">1 · ListView</string>
+    <string name="list_view_heading">SimpleAdapter 动物列表</string>
+    <string name="list_view_hint">点击任意一项，会显示 Toast 并发送一条系统通知。</string>
+    <string name="custom_dialog_title">2 · AlertDialog</string>
+    <string name="custom_dialog_heading">自定义登录对话框</string>
+    <string name="custom_dialog_hint">对话框内容由 XML 布局提供，并通过 AlertDialog.Builder.setView() 加载。</string>
+    <string name="show_dialog">显示自定义对话框</string>
+    <string name="xml_menu_title">3 · MenuTest</string>
+    <string name="xml_menu_heading">使用 XML 定义菜单</string>
+    <string name="xml_menu_hint">打开右上角菜单，调整下方测试文本的字号或颜色。</string>
+    <string name="test_content">用于测试的内容</string>
+    <string name="open_menu">打开右上角菜单</string>
+    <string name="action_mode_title">4 · ActionMode</string>
+    <string name="action_mode_heading">上下文操作模式</string>
+    <string name="action_mode_hint">长按任意列表项进入 ActionMode，再点击删除按钮完成操作。</string>
+    <string name="action_mode_selected">1 selected</string>
+    <string name="recycler_title">5 · RecyclerView</string>
+    <string name="recycler_heading">动物图片列表</string>
+    <string name="recycler_hint">单击动物名称会显示名称，并立即在列表末尾新增一条记录。</string>
+    <string name="recycler_count">当前共 %1$d 条记录</string>
+    <string name="recycler_item_hint">单击名称新增记录</string>
+
+    <string name="menu_font_size">字体大小</string>
+    <string name="menu_font_small">小（10 号字）</string>
+    <string name="menu_font_medium">中（16 号字）</string>
+    <string name="menu_font_large">大（20 号字）</string>
+    <string name="menu_normal">普通菜单项</string>
+    <string name="menu_font_color">字体颜色</string>
+    <string name="menu_color_red">红色</string>
+    <string name="menu_color_black">黑色</string>
+    <string name="menu_normal_clicked">你点击了普通菜单项</string>
+</resources>

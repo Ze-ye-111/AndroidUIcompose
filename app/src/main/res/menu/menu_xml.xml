@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_font_size"
+        android:orderInCategory="10"
+        android:title="@string/menu_font_size">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_font_small"
+                    android:checkable="true"
+                    android:title="@string/menu_font_small" />
+                <item
+                    android:id="@+id/menu_font_medium"
+                    android:checkable="true"
+                    android:checked="true"
+                    android:title="@string/menu_font_medium" />
+                <item
+                    android:id="@+id/menu_font_large"
+                    android:checkable="true"
+                    android:title="@string/menu_font_large" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_normal"
+        android:orderInCategory="20"
+        android:title="@string/menu_normal" />
+    <item
+        android:id="@+id/menu_font_color"
+        android:orderInCategory="30"
+        android:title="@string/menu_font_color">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_color_red"
+                    android:checkable="true"
+                    android:title="@string/menu_color_red" />
+                <item
+                    android:id="@+id/menu_color_black"
+                    android:checkable="true"
+                    android:checked="true"
+                    android:title="@string/menu_color_black" />
+            </group>
+        </menu>
+    </item>
+</menu>

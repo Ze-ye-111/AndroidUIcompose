@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="brand_primary">#1F5A94</color>
+    <color name="brand_primary_soft">#E7F0FA</color>
+    <color name="app_background">#F5F7FB</color>
+    <color name="card_background">#FFFFFFFF</color>
+    <color name="text_primary">#12243D</color>
+    <color name="text_secondary">#607089</color>
+    <color name="divider">#E2E8F0</color>
+    <color name="dialog_header">#FFBE23</color>
+    <color name="action_mode_blue">#0B5D9E</color>
+</resources>
